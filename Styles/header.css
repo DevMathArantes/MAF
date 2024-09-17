@@ -1,0 +1,62 @@
+header{
+    background-color: var(--cor1);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 1em;
+    width: 100%;
+    top: 0;
+}
+header h1{
+    font-family: var(--fontKrona);
+    color: var(--cor2);
+    width: 25%;
+    text-align: center;
+}
+.checkMenu{
+    display: none;
+}
+.checkMenu:checked~.listaMenu{
+    display: block;
+}
+.checkMenu:checked~.btnMenu{
+    background-image: url(../Assets/Icones/btnMenuAberto.png);
+    transition: 1s;
+}
+.btnMenu{
+    background-image: url(../Assets/Icones/btnMenuFechado.png);
+    width: 8%;
+    height: 7vw;
+    background-size: cover;
+}
+.listaMenu{
+    position: fixed;
+    top: 12vw;
+    right: 0;
+    width: 100%;
+    display: none;
+    padding: 1em 0;
+    background-color: var(--cor1);
+    border-radius: 0 0 0.5em 0.5em;
+}
+.listaMenu li{
+    background-color: var(--cor1);
+}
+.listaMenu li a{
+    color: var(--cor2);
+    font-weight: 550;
+    width: 100%;
+    padding: 1em;
+}
+.listaMenu li a:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    transition: 1s;
+}
+
+@media screen and (min-width: 600px){
+    header{
+        border: 2px solid red;
+    }
+}
