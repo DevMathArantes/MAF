@@ -1,19 +1,66 @@
 main{
     margin-top: 10%;
-    height: 1000px;
 }
-main h2{
-    font-family: var(--fontKrona);
-    text-align: center;
+.mainTitulo{
     font-weight: 500;
-    padding: 1em;
+    padding: 0.5em;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.mainTitulo span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor3);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 0.3em;
 }
 .mainEntrada{
     background-image: url(../Assets/Imagens/entrada.jpg);
     background-size: cover;
     background-position: center;
-    height: 130vw;
+    height: 125vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.mainConteudo{
+    padding: 1em;
+}
+.mainConteudo p{
+    font-family: var(--fontMontserrat);
+    padding: 2em 0;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.mainConteudo p span{
+    color: var(--cor3);
+}
+
+@media screen and (min-width: 600px){
+    .mainRecepcao{
+        display: flex;
+    }
+    .mainEntrada{
+        width: 60%;
+        height: 40vw;
+        border-radius: 0 30% 30% 0;
+        border: 2px solid var(--cor3);
+        border-left: none;
+    }
+    .mainTitulo{
+        width: 40%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .mainConteudo h2{
+        font-size: 1.5rem;
+    }
+    .mainConteudo p{
+        font-size: 1.1rem;
+    }
 }

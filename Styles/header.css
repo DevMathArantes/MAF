@@ -9,7 +9,6 @@ header{
     top: 0;
 }
 header h1{
-    font-family: var(--fontKrona);
     color: var(--cor2);
     width: 25vw;
     text-align: center;
