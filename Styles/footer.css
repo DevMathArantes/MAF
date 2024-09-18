@@ -1,0 +1,41 @@
+footer{
+    background-color: var(--cor1);
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor2);
+    gap: 1em;
+}
+footer h2{
+    font-family: var(--fontKrona);
+    font-size: 2rem;
+    width: 75%;
+}
+footer p{
+    font-family: var(--fontMontserrat);
+    width: 75%;
+    text-align: left;
+}
+.whatsApp{
+    position: fixed;
+    bottom: 3em;
+    right: 1em;
+    width: 15%;
+    border-radius: 100%;
+}
+.whatsApp:hover{
+    box-shadow: 0px 0px 10px green;
+}
+
+@media screen and (min-width: 600px){
+    .whatsApp{
+        width: 8%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .whatsApp{
+        width: 5%;
+    }
+}

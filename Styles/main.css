@@ -1,0 +1,19 @@
+main{
+    margin-top: 10%;
+    height: 1000px;
+}
+main h2{
+    font-family: var(--fontKrona);
+    text-align: center;
+    font-weight: 500;
+    padding: 1em;
+}
+.mainEntrada{
+    background-image: url(../Assets/Imagens/entrada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 130vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

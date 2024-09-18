@@ -5,6 +5,8 @@
 /*Estilos*/
 @import url('reset.css');
 @import url('Styles/header.css');
+@import url('Styles/footer.css');
+@import url('Styles/main.css');
 
 /*Seletor global*/
 *{
@@ -30,7 +32,23 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
+}
+a img{
+    width: 5%;
 }
 a,p{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 600px){
+    a img{
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    a,p{
+        font-size: 1rem;
+    }
 }
