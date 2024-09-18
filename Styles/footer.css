@@ -10,11 +10,10 @@ footer{
 footer h2{
     font-family: var(--fontKrona);
     font-size: 2rem;
-    width: 75%;
 }
 footer p{
     font-family: var(--fontMontserrat);
-    width: 75%;
+    width: 60%;
     text-align: left;
 }
 .whatsApp{
