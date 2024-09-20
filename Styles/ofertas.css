@@ -1,0 +1,66 @@
+.ofertas{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.oferta{
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+.oferta h3{
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.ofertaPersonalizada h3 {
+    flex-direction: row;
+    align-items: center;
+}
+.ofertaPersonalizada h3 img{
+    width: 20%;
+}
+.ofertaPadrao h3{
+   color: var(--cor2);
+   background-color: var(--cor1);
+}
+.ofertaPadrao h3 span{
+    color: var(--cor3);
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.ofertaPersonalizada{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    padding: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ofertaPersonalizada h3{
+    color: var(--cor3);
+}
+
+@media screen and (min-width: 1200px){
+    .ofertas h2{
+        width: 100%;
+    }
+    .ofertas{
+        flex-flow: row wrap;
+        gap: 3em;
+    }
+    .oferta{
+        width: 45%;
+        height: 18vw;
+    }
+    .oferta:hover{
+        width: 45.5%;
+        height: 18.5vw;
+        transition: 1s;
+    }
+}
