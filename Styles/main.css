@@ -4,7 +4,6 @@ main{
 .mainTitulo{
     font-weight: 500;
     padding: 0.5em;
-    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +39,28 @@ main{
 .mainConteudo p span{
     color: var(--cor3);
 }
+.mainLista{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontMontserrat);
+    font-weight: 750;
+    color: var(--cor3);
+    padding: 1em;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+main h2{
+    margin-top: 1.5em;
+}
+.mainLista li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1em;
+}
+.mainLista li img{
+    width: 10%;
+}
 
 @media screen and (min-width: 600px){
     .mainRecepcao{
@@ -62,5 +83,17 @@ main{
     }
     .mainConteudo p{
         font-size: 1.1rem;
+    }
+    .mainLista{
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .mainLista li{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .mainLista li{
+        width: 30%;
     }
 }
