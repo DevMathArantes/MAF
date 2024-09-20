@@ -96,4 +96,8 @@ main h2{
     .mainLista li{
         width: 30%;
     }
+    .mainEntrada{
+        height: 30vw;
+        border-radius: 0 50% 50% 0;
+    }
 }
