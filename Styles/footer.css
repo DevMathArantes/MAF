@@ -36,5 +36,6 @@ footer p{
 @media screen and (min-width: 1200px){
     .whatsApp{
         width: 5%;
+        bottom: 1em;
     }
 }

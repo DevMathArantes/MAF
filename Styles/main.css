@@ -98,6 +98,6 @@ main h2{
     }
     .mainEntrada{
         height: 30vw;
-        border-radius: 0 50% 50% 0;
+        border-radius: 0 30px 30px 0;
     }
 }

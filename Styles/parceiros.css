@@ -12,7 +12,6 @@
 }
 .parceiros li img{
     width: 25%;
-    height: 20vw;
     border-radius: 10px;
 }
 .parceiro{
@@ -32,7 +31,6 @@
     }
     .parceiros li img{
         width: 15%;
-        height: 10vh;
     }
     .parceiro{
         width: 70%;
