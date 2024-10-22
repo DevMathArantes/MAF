@@ -6,9 +6,7 @@
 @import url('reset.css');
 @import url('Styles/header.css');
 @import url('Styles/footer.css');
-@import url('Styles/main.css');
-@import url('Styles/ofertas.css');
-@import url('Styles/parceiros.css');
+@import url('Styles/inicio.css');
 
 /*Seletor global*/
 *{
@@ -19,7 +17,7 @@
 :root{
     --fontKrona: "Krona One", sans-serif;
     --fontMontserrat: "Montserrat", sans-serif;
-    --cor1: #1d1d1d;
+    --cor1: #000000;
     --cor2: #f5f5f5;
     --cor3: #ff7b00;
     --cor4: #ffffff;
@@ -44,6 +42,7 @@ a img{
 }
 a,p{
     font-size: 1rem;
+    font-family: var(--fontMontserrat);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--fontKrona);
