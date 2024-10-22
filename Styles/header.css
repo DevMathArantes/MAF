@@ -1,75 +1,14 @@
 header{
-    background-color: var(--cor1);
+    height: 80vh;
+    background-image: url(../Assets/Imagens/entrada.jpg);
+    background-size: 90%;
+    background-position: center;
     display: flex;
-    align-items: center;
-    position: fixed;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 1em;
-    width: 100vw;
-    top: 0;
 }
-header h1{
+header h2{
     color: var(--cor2);
-    width: 25vw;
     text-align: center;
-}
-.checkMenu{
-    display: none;
-}
-.checkMenu:checked~.listaMenu{
-    display: block;
-}
-.checkMenu:checked~.btnMenu{
-    background-image: url(../Assets/Icones/btnMenuAberto.png);
-    transition: 1s;
-}
-.btnMenu{
-    background-image: url(../Assets/Icones/btnMenuFechado.png);
-    width: 8vw;
-    height: 8vw;
-    background-size: cover;
-}
-.listaMenu{
-    position: fixed;
-    top: 13vw;
-    right: 0;
-    width: 100vw;
-    display: none;
-    padding: 1em 0;
-    background-color: var(--cor1);
-    border-radius: 0 0 0.5em 0.5em;
-}
-.listaMenu li{
-    background-color: var(--cor1);
-    position: relative;
-}
-.listaMenu li a{
-    color: var(--cor2);
-    font-weight: 550;
-    width: 100%;
-    padding: 1em;
-}
-.listaMenu li a:hover{
-    color: var(--cor3);
-    transition: 1s;
-}
-
-@media screen and (min-width: 600px){
-    .btnMenu{
-        display: none;
-    }
-    header{
-        padding: 0.5em;
-    }
-    header h1{
-        font-size: 1.5rem;
-    }
-    .listaMenu{
-        display: flex;
-        position: relative;
-        top: 0;
-        justify-content: end;
-        padding: 0;
-        gap: 1em;
-    }
+    padding: 3em 1em;
 }

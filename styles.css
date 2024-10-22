@@ -6,7 +6,6 @@
 @import url('reset.css');
 @import url('Styles/header.css');
 @import url('Styles/footer.css');
-@import url('Styles/inicio.css');
 
 /*Seletor global*/
 *{
@@ -27,7 +26,7 @@
 /*Regras gerais*/
 body{
     margin: 0;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 a{
     text-decoration: none;
