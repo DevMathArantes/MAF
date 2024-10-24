@@ -1,0 +1,6 @@
+.extraLink{
+    color: var(--cor2);
+    border: 2px solid;
+    padding: 1em 2em;
+    border-radius: 10px;
+}

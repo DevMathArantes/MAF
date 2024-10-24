@@ -6,6 +6,8 @@
 @import url('reset.css');
 @import url('Styles/header.css');
 @import url('Styles/footer.css');
+@import url('Styles/extras.css');
+@import url('Styles/painel1.css');
 
 /*Seletor global*/
 *{
@@ -24,6 +26,12 @@
 body{
     margin: 0;
     background-color: var(--cor1);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 a{
     text-decoration: none;

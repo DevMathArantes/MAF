@@ -64,6 +64,9 @@ header h2{
     header{
         background-size: 40%;
     }
+    header h1{
+        gap: 7em;
+    }
     header h2{
         margin-left: 10em;
     }
