@@ -2,63 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/*Estilos*/
-@import url('reset.css');
+/*Estilizadores*/
 @import url('Styles/header.css');
-@import url('Styles/footer.css');
-@import url('Styles/extras.css');
-@import url('Styles/painel1.css');
 
-/*Seletor global*/
+/*Regras*/
 *{
     box-sizing: border-box;
+}
+body{
+    margin: 0;
 }
 
 /*Variáveis css*/
 :root{
     --fontKrona: "Krona One", sans-serif;
     --fontMontserrat: "Montserrat", sans-serif;
-    --cor1: #000000;
-    --cor2: #f5f5f5;
+    --cor1: #1b1b1b;
+    --cor2: #000000;
+    --cor3: #ffffff;
 }
 
-/*Regras gerais*/
-body{
+h1, h2, h3, h4, h5, h6{
     margin: 0;
-    background-color: var(--cor1);
-}
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
-}
-a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-}
-a img{
-    width: 5%;
-}
-a,p{
-    font-size: 1rem;
-    font-family: var(--fontMontserrat);
-}
-h1,h2,h3,h4,h5,h6{
     font-family: var(--fontKrona);
-}
-
-@media screen and (min-width: 600px){
-    a img{
-        width: 10%;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    a,p{
-        font-size: 1rem;
-    }
 }
