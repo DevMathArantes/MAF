@@ -1,8 +1,20 @@
+/*Conteúdo inicial*/
 header{
     background-image: url('../Assets/Imagens/logo2.png');
     width: 100%;
-    height: 100vw;
+    height: 25em;
     background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 5em 0;
+}
+header h2{
+    color: var(--cor3);
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+    text-shadow: 0px 0px 10px var(--cor2);
 }
 
 /*Nav superior principal*/
@@ -27,6 +39,23 @@ header nav input{
 }
 header nav ul{
     display: none;
+    position: fixed;
+    top: 3.5em;
+    right: 0;
+    width: 75%;
+    flex-direction: column;
+    background-color: var(--cor1);
+    list-style: none;
+    padding: 0;
+    box-shadow: 0px 10px 10px var(--cor2);
+    border-radius: 0 0 0 5px;
+}
+header nav li{
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-family: var(--fontMontserrat);
+    border-bottom: 1px solid var(--cor2);
 }
 header nav label{
     width: 2.5em;
