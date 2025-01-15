@@ -55,11 +55,23 @@ header nav li{
     padding: 1em;
     text-align: center;
     font-family: var(--fontMontserrat);
-    border-bottom: 1px solid var(--cor2);
+    border-top: 1px solid var(--cor2);
+
 }
 header nav label{
     width: 2.5em;
     height: 2.5em;
     background-image: url(../Assets/Icons/menu.png);
     background-size: 100%;
+}
+header nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--cor3);
+    
+}
+header nav a img{
+    width: 1.5em;
 }
