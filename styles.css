@@ -4,6 +4,8 @@
 
 /*Estilizadores*/
 @import url('Styles/header.css');
+@import url('Styles/main.css');
+@import url('Styles/mainInfo.css');
 
 /*Regras*/
 *{
@@ -11,13 +13,14 @@
 }
 body{
     margin: 0;
+    background-color: var(--cor1);
 }
 
 /*Variáveis css*/
 :root{
     --fontKrona: "Krona One", sans-serif;
     --fontMontserrat: "Montserrat", sans-serif;
-    --cor1: #1b1b1b;
+    --cor1: #1f1f1f;
     --cor2: #000000;
     --cor3: #ffffff;
 }
@@ -25,6 +28,8 @@ body{
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     font-family: var(--fontKrona);
+    color: var(--cor3);
+    text-shadow: 0px 0px 10px var(--cor2);
 }
 a{
     text-decoration: none;
