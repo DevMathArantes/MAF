@@ -1,10 +1,25 @@
+/*Main*/
 main{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }
+main h2{
+    width: 100%;
+    padding: 1em 2em;
+}
 
 /*Imagem do globo futuro*/
 .globoFuturo{
     background-image: url(../Assets/Images/globoFuturo.jpg);
+}
+
+/*Imagem do espeto`s bar*/
+.espetosBar{
+    background-image: url(../Assets/Images/espetosBar.jpg);
+}
+
+/*Imagem do empório do açai*/
+.emporioAcai{
+    background-image: url(../Assets/Images/emporioAcai.jpg);
 }

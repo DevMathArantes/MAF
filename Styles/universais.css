@@ -26,7 +26,7 @@
     max-width: 40em;
     margin: 2em;
 }
-.informativo h2{
+.informativo h3{
     font-size: 1.5rem;
     margin: 0;
     width: 100%;
@@ -52,8 +52,76 @@
     margin-left: auto;
 }
 
+/*Rodapé*/
+.rodape{
+    display: flex;
+    overflow-x: auto;
+    padding: 1em;
+    gap: 1em;
+    box-shadow: 0px 0px 5px var(--c5);
+    width: 100%;
+}
+
+/*Demonstração dos websites*/
+.website{
+    box-shadow: 0px 5px 10px var(--c5);
+    border-radius: 10px;
+    width: 14em;
+    min-width: 14em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.websiteNome{
+    width: 100%;
+    height: 12em;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: var(--c1);
+    text-shadow: 0px 0px 10px var(--c2);
+    padding: 1em;
+    text-align: center;
+}
+.website h3{
+    border: 2px solid var(--c1);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.website p{
+    font-size: 0.8rem;
+    padding: 0.5em 1em;
+}
+.local{
+    font-size: 0.7rem;
+    padding: 0.5em 1em 0.5em 2em;
+    color: var(--c5);
+    background-image: url(../Assets/Icons/local.png);
+    background-size: 1rem;
+    background-position: 0.5em;
+    background-repeat: no-repeat;
+}
+.visitar{
+    text-align: center;
+    padding: 0.5em;
+    box-shadow: 0px 5px 10px var(--c5);
+    background-color: var(--c6);
+    color: var(--c1);
+    width: 10em;
+    border-radius: 5px;
+    background-image: url(../Assets/Icons/linkBranco.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+
 @media screen and (min-width: 724px){
 
+    /*Aumenta a imagem*/
     .imagemEsquerda{
         width: 30em;
     }
