@@ -1,0 +1,48 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Estilos*/
+@import url(Styles/universais.css);
+@import url(Styles/header.css);
+@import url(Styles/main.css);
+@import url(Styles/footer.css);
+
+/*Variáveis*/
+:root{
+    --fontTitulo: "Montserrat", sans-serif;
+    --fontTexto: "Roboto", sans-serif;
+    --fontEspecial: "Ubuntu", sans-serif;
+    --c1: #fffafa;
+    --c2: #010107;
+    --c3: #E5BAFF;
+    --c4: #e997fd;
+    --c5: #a1a1a1;
+    --c6: #7600a5;
+}
+
+/*Regras*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--c1);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fontTitulo);
+    margin: 0;
+}
+p, i, li{
+    font-family: var(--fontTexto);
+}
+span, a{
+    font-family: var(--fontEspecial);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
