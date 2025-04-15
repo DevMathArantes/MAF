@@ -23,3 +23,23 @@ main h2{
 .emporioAcai{
     background-image: url(../Assets/Images/emporioAcai.jpg);
 }
+
+/*Líder gás & água*/
+.liderGasAgua{
+    background-image: url(../Assets/Images/liderGasAgua.jpg);
+}
+
+/*Horlando Bessa*/
+.horlando{
+    background-image: url(../Assets/Images/horlando.jpg);
+}
+
+/*Atacado mirim*/
+.mirim{
+    background-image: url(../Assets/Images/mirim.jpg);
+}
+
+/*Instituição amiga*/
+.amiga{
+    background-image: url(../Assets/Images/amiga.png);
+}
