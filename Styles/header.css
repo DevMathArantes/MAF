@@ -58,7 +58,7 @@ header span{
 }
 .menuPrincipal li{
     width: 100%;
-    padding: 1em;
+    padding: 2em;
     border-bottom: 2px solid var(--c5);
 }
 .menuPrincipal a{
