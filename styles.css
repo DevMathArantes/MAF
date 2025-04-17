@@ -20,6 +20,7 @@
     --c4: #e997fd;
     --c5: #5c5c5c;
     --c6: #7600a5;
+    --c7: #ffffff;
 }
 
 /*Regras*/
@@ -30,7 +31,7 @@ body{
     margin: 0;
     background-color: var(--c1);
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, button{
     font-family: var(--fontTitulo);
     margin: 0;
 }

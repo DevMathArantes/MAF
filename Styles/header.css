@@ -87,9 +87,9 @@ header span{
     }
     .menuPrincipal{
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         justify-content: flex-end;
-        gap: 2em;
+        gap: 1em;
     }
     .menuPrincipal li{
         padding: 0;
