@@ -1,4 +1,78 @@
+/*Botão no canto da tela*/
+.btnCanto{
+    background-color: var(--c1);
+    position: fixed;
+    display: flex;
+    bottom: 1em;
+    right: 1em;
+    padding: 1em;
+    border-radius: 50%;
+    border: 2px solid var(--c2);
+}
+.btnCanto img{
+    width: 1.5em;
+}
+.btnCanto span{
+    display: none;
+    transition: 1s;
+}
+.btnCanto:hover{
+    color: var(--c2);
+    transition: 1s;
+    box-shadow: 0px 0px 5px var(--c2);
+}
 
+/*Divisão com imagem e texto*/
+.imgTexto{
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.imgTexto img{
+    width: 18em;
+    border-radius: 10px;
+}
+.imgTexto div{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgTexto h3{
+    font-size: 2rem;
+    padding: 1em;
+}
+.imgTexto p{
+    font-weight: 500;
+    padding: 1em;
+}
+.imgTexto span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--c5);
+}
+.imgTexto a{
+    background-color: var(--c5);
+    border: 0;
+    color: var(--c3);
+    width: 18em;
+    padding: 1em;
+    border-radius: 10px;
+    transition: 1s;
+}
+.imgTexto a:hover{
+    background-color: var(--c2);
+    transition: 1s;
+}
+
+/*Divisão horizontal com barra de rolagem*/
+.carrossel{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
 
 /*Frase com palavras trocando*/
 .rodarFrase{
@@ -33,4 +107,46 @@
     50% {transform: translateY(-200%);}
     75% {transform: translateY(-300%);}
     100% {transform: translateY(-400%);}
+}
+
+@media (min-width: 724px){
+
+    /*Adiciona texto ao botão de canto*/
+    .btnCanto{
+        width: 12em;
+        border-radius: 10px;
+        padding: 1em 2em;
+        align-items: center;
+        gap: 1em;
+        color: var(--c3);
+    }
+    .btnCanto span{
+        display: block;
+    }
+
+    /*Reorganização da imagem com texto*/
+    .imgTexto{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .imgTexto img{
+        width: 35em;
+        border-radius: 0 10px 10px 0;
+    }
+    .imgTexto div{
+        text-align: left;
+        align-items: flex-start;
+        padding: 0 4em;
+        gap: 2em;
+    }
+    .imgTexto h3{
+        font-size: 3rem;
+    }
+    .imgTexto p, .imgTexto h3{
+        padding: 0;
+    }
+    .imgTexto span{
+        font-size: 2rem;
+    }
+
 }

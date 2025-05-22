@@ -18,6 +18,7 @@
     --c2: #2ae9e9;
     --c3: #ffffff;
     --c4: #0000008c;
+    --c5: #008888;
 }
 
 /*Regras*/
@@ -39,7 +40,14 @@ span, a{
 }
 a{
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 a:hover{
     text-decoration: underline;
+}
+a img{
+    width: 1.5em;
 }

@@ -1,3 +1,4 @@
+/*Padrão de header1*/
 .header1{
     background-color: var(--c1);
     color: var(--c3);
@@ -23,12 +24,10 @@
 .header1 nav{
     margin-top: 2em;
     display: flex;
-    gap: 2em;
+    gap: 3em;
     width: 100%;
 }
 .header1 nav a{
-    display: flex;
-    align-items: center;
     gap: 1em;
     font-size: 1rem;
     color: var(--c3);
@@ -47,6 +46,7 @@
 
 @media (min-width: 724px){
    
+    /*Adiciona texto aos links*/
     .header1 nav a span{
         display: block;
     }
