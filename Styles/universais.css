@@ -124,6 +124,10 @@
         display: block;
     }
 
+}
+
+@media (min-width: 1250px){
+
     /*Reorganização da imagem com texto*/
     .imgTexto{
         flex-direction: row;
