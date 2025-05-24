@@ -73,6 +73,16 @@
     display: flex;
     overflow-x: auto;
 }
+/* Estilo geral da barra de rolagem */
+.carrossel::-webkit-scrollbar {
+  height: 0.5em; 
+  background-color: transparent;
+}
+.carrossel::-webkit-scrollbar-thumb {
+  background-color: var(--c6); 
+  border-radius: 6px; 
+}
+.carrossel::-webkit-scrollbar-button {}
 
 /*Frase com palavras trocando*/
 .rodarFrase{
@@ -99,6 +109,34 @@
     display: block;
     animation: rodarPalavras 8s infinite ease;
 }
+
+/*Itens com imagem, título, texto e link*/
+.itemPadrao{
+    width: 15em;
+    min-width: 15em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    text-align: center;
+    align-items: center;
+}
+.itemPadrao > img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.itemPadrao p, .itemPadrao h2{
+    margin: 0;
+}
+.itemPadrao p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.itemPadrao a{
+    color: var(--c5);
+    font-weight: 550;
+}
+
 
 /*Animação para trocar palavras*/
 @keyframes rodarPalavras{
