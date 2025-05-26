@@ -93,7 +93,7 @@
                     Ver Modelo
                     <img src="Assets/Icons/linkEscuro.png" alt="icone link">
                 </a>
-                <button>Solicitar</button>
+                <button onclick="solicita('Landing Page Delivery')">Solicitar</button>
             </div>
 
             <div class="itemPadrao">
@@ -107,7 +107,7 @@
                     Ver Modelo
                     <img src="Assets/Icons/linkEscuro.png" alt="icone link">
                 </a>
-                <button>Solicitar</button>
+                <button onclick="solicita('Landing Page Vitrine')">Solicitar</button>
             </div>
 
             <div class="itemPadrao">
@@ -121,7 +121,7 @@
                     Ver Modelo
                     <img src="Assets/Icons/linkEscuro.png" alt="icone link">
                 </a>
-                <button>Solicitar</button>
+                <button onclick="solicita('Web Site Blog Dedicado')">Solicitar</button>
             </div>
 
             <div class="itemPadrao">
@@ -135,7 +135,7 @@
                     Ver Modelo
                     <img src="Assets/Icons/linkEscuro.png" alt="icone link">
                 </a>
-                <button>Solicitar</button>
+                <button onclick="solicita('Web Site Agenda')">Solicitar</button>
             </div>
 
             <div class="itemPadrao">
@@ -145,11 +145,13 @@
                     Se o que você procura não se enquadra em nenhum dos modelos anteriores, fique a vontade para solicitar
                     o desenvolvimento de um novo tipo de sistema que se adeque perfeitamente com o que você precisa.
                 </p>
-                <button>Solicitar</button>
+                <button onclick="solicita('Novo Sistema')">Solicitar</button>
             </div>
 
         </section>
 
+        <!--Modal para solicitar serviços-->
+        <section id="solicita" class="modal"></section>
        
     </main>
     <footer>
@@ -157,5 +159,6 @@
         <h2>MAF</h2>
         <p>Agradecemos pela preferência.</p>
     </footer>
+    <script src="../src/functions.js"></script>
 </body>
 </html>

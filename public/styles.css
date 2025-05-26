@@ -20,6 +20,7 @@
     --c4: #0000008c;
     --c5: #008888;
     --c6: #8d8d8d;
+    --c7: #00000080;
 }
 
 /*Regras*/
@@ -28,6 +29,7 @@
 }
 body{
     margin: 0;
+    cursor: url("Assets/Icons/cursor.png"), auto;
 }
 h1, h2, h3, h4, h5, h6, button{
     font-family: var(--fontTitulo);
@@ -38,6 +40,9 @@ p, i, li{
 }
 span, a{
     font-family: var(--fontEspecial);
+}
+button, a{
+    cursor: pointer;
 }
 a{
     text-decoration: none;
