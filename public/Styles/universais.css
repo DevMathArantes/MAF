@@ -53,19 +53,6 @@
     font-weight: 700;
     color: var(--c5);
 }
-.imgTexto a{
-    background-color: var(--c5);
-    border: 0;
-    color: var(--c3);
-    width: 18em;
-    padding: 1em;
-    border-radius: 10px;
-    transition: 1s;
-}
-.imgTexto a:hover{
-    background-color: var(--c2);
-    transition: 1s;
-}
 
 /*Divisão horizontal com barra de rolagem*/
 .carrossel{
@@ -134,19 +121,6 @@
 .itemPadrao a{
     color: var(--c5);
     font-weight: 550;
-}
-.itemPadrao button{
-    width: 15em;
-    padding: 1em;
-    border: 0;
-    background-color: var(--c5);
-    color: var(--c3);
-    border-radius: 10px;
-    transition: 1s;
-}
-.itemPadrao button:hover{
-    transition: 1s;
-    background-color: var(--c2);
 }
 
 /*Fundo transparente*/
