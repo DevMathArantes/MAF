@@ -82,7 +82,6 @@
   background-color: var(--c6); 
   border-radius: 6px; 
 }
-.carrossel::-webkit-scrollbar-button {}
 
 /*Frase com palavras trocando*/
 .rodarFrase{
