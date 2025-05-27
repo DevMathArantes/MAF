@@ -148,6 +148,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2em;
     background-image: url(../Assets/Images/circuitoBottom.png);
     background-size: 100%;
@@ -155,7 +156,6 @@
     background-repeat: no-repeat;
 }
 .formularioEsquerda h3{
-    margin-top: 3em;
     width: 20ch;
     font-size: 1.5rem;
     margin-right: auto;
