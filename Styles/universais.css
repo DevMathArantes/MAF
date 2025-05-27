@@ -141,15 +141,16 @@
     top: 0;
     background-color: var(--c1);
     box-shadow: 0px 0px 10px var(--c2);
-    padding: 1em;
+    padding: 2em 1em;
     width: 80%;
     max-width: 30em;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 2em;
+    background-image: url(../Assets/Images/circuitoBottom.png);
+    background-size: cover;
 }
 .formularioEsquerda h3{
     width: 20ch;
@@ -197,7 +198,6 @@
 .btnPadrao:hover{
     transition: 1s;
     background-color: var(--c2);
-    box-shadow: 0px 0px 10px var(--c5);
 }
 
 /*Botão para fechar*/
