@@ -9,9 +9,7 @@ function get(id){
 function dijuntor(id){
     if(get(id).style.display=='block'){
         get(id).style.display='none';
-        document.body.style.overflow='auto';
     }else{
-        document.body.style.overflow='hidden';
         get(id).style.display='block';
     }
 }
