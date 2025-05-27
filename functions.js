@@ -28,6 +28,7 @@ function solicita(titulo){
                 <input type="text" placeholder="Nome">
                 <input type="text" placeholder="Endereço">
                 <button class="btnPadrao">Gerar Solicitação</button>
-            </div>
+                <img src="Assets/Images/circuitoBottom.png" alt="imagem de circuitos botton">
+                </div>
     `;
 }
