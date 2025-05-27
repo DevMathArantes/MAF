@@ -58,7 +58,7 @@ function verifica(){
 }
 
 function montarSolicita(nome, endereco, sistema){
-    let link = "https://wa.me/5516992467515?text="
+    let link = "https://wa.me/5516992909552?text="
     +periodo()
     +",%20me%20chamo%20"
     +nome
