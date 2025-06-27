@@ -1,54 +1,12 @@
-/*Padrão de header1*/
 .header1{
-    background-color: var(--c1);
-    color: var(--c3);
-    padding: 2em 1.5em;
-    height: 25em;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    background-image: url(../Assets/Images/fundoHeader1.png);
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color: var(--principalEscura);
+    color: var(--secundariaClara);
+    padding: 2em 1em;
+    text-align: center;
 }
-.header1 h1{
-    width: 100%;
-}
-.header1 p{
-    color: var(--c2);
+.header1 h2{
     margin: 0;
-    width: 100%;
 }
-.header1 nav{
-    margin-top: 2em;
-    display: flex;
-    gap: 3em;
-    width: 100%;
-}
-.header1 nav a{
-    gap: 1em;
-    font-size: 1rem;
-    color: var(--c3);
-    transition: 1s;
-}
-.header1 nav a:hover{
-    color: var(--c2);
-    transition: 1s;
-}
-.header1 nav a img{
-    width: 1.5em;
-}
-.header1 nav a span{
-    display: none;
-}
-
-@media (min-width: 724px){
-   
-    /*Adiciona texto aos links*/
-    .header1 nav a span{
-        display: block;
-    }
-
+.header1 img{
+    width: 20em;
 }

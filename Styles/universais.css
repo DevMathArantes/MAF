@@ -1,294 +1,32 @@
-/*Botão no canto da tela*/
-.btnCanto{
-    background-color: var(--c1);
-    position: fixed;
+.botoesIsolados{
     display: flex;
-    bottom: 1em;
-    right: 1em;
-    padding: 1em;
-    border-radius: 50%;
-    border: 2px solid var(--c2);
+    flex-direction: column;
+    padding: 2em 1em;
+    gap: 2em;
+    align-items: center;
+    background-color: var(--principalEscura);
 }
-.btnCanto img{
+.botoesIsolados a{
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 15em;
+    padding: 1em;
+    border-radius: 10px;
+    color: var(--secundariaClara);
+    border: 2px solid var(--secundariaEscura);
+}
+.botoesIsolados a img{
     width: 1.5em;
 }
-.btnCanto span{
-    display: none;
+
+.botoesIsolados a:hover{
     transition: 1s;
+    color: var(--principalEscura);
+    box-shadow: inset 0 -100px 0 0 var(--secundariaEscura);
 }
-.btnCanto:hover{
-    color: var(--c2);
-    transition: 1s;
-    box-shadow: 0px 0px 5px var(--c2);
-}
-
-.sectionPadrao{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-}
-
-/*Divisão com imagem e texto*/
-.imgTexto{
-    padding: 1em 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.imgTexto img{
-    width: 18em;
-    border-radius: 10px;
-}
-.imgTexto div{
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.imgTexto h3{
-    font-size: 2rem;
-    padding: 1em;
-}
-.imgTexto p{
-    font-weight: 500;
-    padding: 1em;
-}
-.imgTexto span{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--c5);
-}
-
-/*Divisão horizontal com barra de rolagem*/
-.carrossel{
-    width: 100%;
-    display: flex;
-    overflow-x: auto;
-}
-/* Estilo geral da barra de rolagem */
-.carrossel::-webkit-scrollbar {
-  height: 0.5em; 
-  background-color: transparent;
-}
-.carrossel::-webkit-scrollbar-thumb {
-  background-color: var(--c6); 
-  border-radius: 6px; 
-}
-
-/*Frase com palavras trocando*/
-.rodarFrase{
-    font-size: 1.3rem;
-    margin: 2em;
-    text-align: center;
-    padding: 0.5em;
-    border: 2px solid var(--c3);
-    width: 15em;
-    border-radius: 10px;
-    background-color: var(--c4);
-}
-.rodarFrase > span{
-    position: relative;
-    display: inline-block;
-    color: var(--c2);
-    height: 1.25em;
-    vertical-align: bottom;
-    overflow: hidden;
-    width: auto;
-}
-.rodarFrase > span > span{
-    text-align: left;
-    display: block;
-    animation: rodarPalavras 8s infinite ease;
-}
-
-/*Itens com imagem, título, texto e link*/
-.itemPadrao{
-    width: 15em;
-    min-width: 15em;
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    text-align: center;
-    align-items: center;
-}
-.itemPadrao > img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-}
-.itemPadrao p, .itemPadrao h2{
-    margin: 0;
-}
-.itemPadrao p{
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-.itemPadrao a{
-    color: var(--c5);
-    font-weight: 550;
-}
-
-/*Fundo transparente*/
-.modal{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110vh;
-    background-color: var(--c7);
-}
-
-/*Formulário no canto da tela*/
-.formularioEsquerda{
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: var(--c1);
-    box-shadow: 0px 0px 10px var(--c2);
-    padding: 0 1em;
-    width: 90%;
-    max-width: 30em;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-    background-image: url(../Assets/Images/circuitoBottom.png);
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.formularioEsquerda h3{
-    width: 20ch;
-    font-size: 1.5rem;
-    margin-right: auto;
-}
-
-.formularioEsquerda h3{
-    color: var(--c2);
-}
-.formularioEsquerda p{
-    margin: 0;
-    color: var(--c3);
-    width: 100%;
-}
-.formularioEsquerda input{
-    background-color: transparent;
-    border: 1px solid var(--c5);
-    padding: 1em;
-    border-radius: 5px;
-    color: var(--c2);
-    width: 100%;
-    transition: 1s;
-}
-.formularioEsquerda input::placeholder{
-    color: var(--c5)
-}
-.formularioEsquerda input:hover{
-    transition: 1s;
-    border: 1px solid var(--c2);
-    box-shadow: 0px 0px 10px var(--c5);
-}
-
-/*Botão padrão do site*/
-.btnPadrao{
-    background-color: var(--c5);
-    width: 15em;
-    max-width: 100%;
-    border: 0;
-    padding: 1em;
-    border-radius: 10px;
-    color: var(--c3);
-    font-size: 0.9rem;
-    transition: 1s;
-}
-.btnPadrao:hover{
-    transition: 1s;
-    background-color: var(--c2);
-}
-
-/*Botão para fechar*/
-.fechar{
-    background-color: transparent;
-    border: 0;
-    position: fixed;
-    top: 1em;
-    right: 1em;
-}
-.fechar img{
-    width: 2em;
-}
-
-/*O texto é reescrito inifinitamente*/
-.reescrever{
-    text-wrap: nowrap;
-    overflow: hidden;
-    border-right: 2px solid var(--c2);
-    animation: reecrever 3s steps(20) infinite alternate-reverse;
-}
-
-/*Animação para trocar palavras*/
-@keyframes rodarPalavras{
-    0% {transform: translateY(0%);}
-    25% {transform: translateY(-100%);}
-    50% {transform: translateY(-200%);}
-    75% {transform: translateY(-300%);}
-    100% {transform: translateY(-400%);}
-}
-
-/*Animação para reescrever*/
-@keyframes reecrever{
-    from {
-        width: 0ch;
-    }
-}
-
-@media (min-width: 724px){
-
-    /*Adiciona texto ao botão de canto*/
-    .btnCanto{
-        width: 12em;
-        border-radius: 10px;
-        padding: 1em 2em;
-        align-items: center;
-        gap: 1em;
-        color: var(--c3);
-    }
-    .btnCanto span{
-        display: block;
-    }
-
-}
-
-@media (min-width: 1250px){
-
-    /*Reorganização da imagem com texto*/
-    .imgTexto{
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    .imgTexto img{
-        width: 35em;
-        border-radius: 0 10px 10px 0;
-    }
-    .imgTexto div{
-        text-align: left;
-        align-items: flex-start;
-        padding: 0 4em;
-        gap: 2em;
-    }
-    .imgTexto h3{
-        font-size: 3rem;
-    }
-    .imgTexto p, .imgTexto h3{
-        padding: 0;
-    }
-    .imgTexto span{
-        font-size: 2rem;
-    }
-
+.botoesIsolados a:active{
+    transform: scale(0.9);
 }
