@@ -70,15 +70,6 @@
     transition: 0.5s;
 }
 
-.contrato{
-    background-image: url(../../assets/icons/contrato.png);
-    transition: 0.5s;
-}
-.nav-sticky a:hover .contrato{
-    background-image: url(../../assets/icons/contratoHover.png);
-    transition: 0.5s;
-}
-
 .home{
     background-image: url(../../assets/icons/home.png);
     transition: 0.5s;

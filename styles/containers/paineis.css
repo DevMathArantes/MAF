@@ -9,6 +9,7 @@
     padding-bottom: 1em;
     border-radius: 10px;
     transition: 0.5s;
+    text-align: center;
 }
 .painel-imagem img{
     width: 100%;
@@ -21,7 +22,6 @@
     text-align: center;
     margin: 0;
     font-weight: 600;
-    width: 16em;
 }
 
 /*cores dos titulos dos paineis*/
@@ -37,4 +37,28 @@
 }
 .tituloOL{
     color: #a00000;
+}
+.tituloBL{
+    color: #e74900;
+}
+.tituloA{
+    color: #cf0000;
+}
+.tituloAE{
+    color: #000000;
+}
+.tituloHB{
+    color: #000063;
+}
+.tituloM{
+    color: #ff1f1f;
+}
+.tituloAF{
+    color: #000000;
+}
+.tituloGA{
+    color: #00004d;
+}
+.tituloEB{
+    color: #a3000e;
 }
