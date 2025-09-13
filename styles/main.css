@@ -1,0 +1,14 @@
+/*Containers*/
+@import url(containers/paineis.css);
+@import url(containers/carrosseis.css);
+@import url(containers/navs.css);
+@import url(containers/sections.css);
+@import url(containers/buttons.css);
+@import url(containers/curingas.css);
+
+/*Regras*/
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

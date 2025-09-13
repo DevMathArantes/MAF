@@ -1,0 +1,40 @@
+/*Painel Padrão*/
+.painel-imagem{
+    width: 15em;
+    min-width: 15em;
+    display: flex;
+    flex-flow: row wrap;
+    color: var(--cinza);
+    box-shadow: 0px 5px 10px var(--cinza);
+    padding-bottom: 1em;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.painel-imagem img{
+    width: 100%;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+.painel-imagem p{
+    font-size: 0.8rem;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    width: 16em;
+}
+
+/*cores dos titulos dos paineis*/
+
+.tituloEA{
+    color: #56055e;
+}
+.tituloLC{
+    color: #084708;
+}
+.tituloIC{
+    color: #e7b100;
+}
+.tituloOL{
+    color: #a00000;
+}

@@ -1,0 +1,98 @@
+/*Nav que se alinha ao topo com a rolagem da tela*/
+.nav-sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--preto);
+    display: flex;
+    gap: 2em;
+    padding: 1em;
+}
+.nav-sticky a{
+    transition: 0.5s;
+    color: var(--cinza);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.nav-sticky a:hover{
+    color: var(--branco);
+    transition: 0.5s;
+}
+.nav-sticky .icon{
+    width: 2em;
+    height: 2em;
+    background-size: 100%;
+}
+.nav-sticky a span{
+    display: none;
+}
+.nav-sticky h2{
+    margin: 0 1em 0 auto;
+    color: var(--cinza);
+}
+
+/*Images dos icones*/
+.rede{
+    background-image: url(../../assets/icons/rede.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .rede{
+    background-image: url(../../assets/icons/redeHover.png);
+    transition: 0.5s;
+}
+
+.linkedin{
+    background-image: url(../../assets/icons/linkedin.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .linkedin{
+    background-image: url(../../assets/icons/linkedinHover.png);
+    transition: 0.5s;
+}
+
+.instagram{
+    background-image: url(../../assets/icons/instagram.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .instagram{
+    background-image: url(../../assets/icons/instagramHover.png);
+    transition: 0.5s;
+}
+
+.whatsapp{
+    background-image: url(../../assets/icons/whatsapp.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .whatsapp{
+    background-image: url(../../assets/icons/whatsappHover.png);
+    transition: 0.5s;
+}
+
+.contrato{
+    background-image: url(../../assets/icons/contrato.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .contrato{
+    background-image: url(../../assets/icons/contratoHover.png);
+    transition: 0.5s;
+}
+
+.home{
+    background-image: url(../../assets/icons/home.png);
+    transition: 0.5s;
+}
+.nav-sticky a:hover .home{
+    background-image: url(../../assets/icons/homeHover.png);
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 724px){
+
+    /*Adicionando texto aos links*/
+    .nav-sticky a span{
+        display: block;
+    }
+
+}

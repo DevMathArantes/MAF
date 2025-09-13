@@ -1,0 +1,51 @@
+/*Botão que preenche horizontal*/
+.button-padrao{
+    margin: 1em 0;
+    padding: 1em;
+    background-color: var(--corPrincipal);
+    color: var(--cinza);
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 1px var(--cinza);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.button-padrao:hover{
+    color: var(--branco);
+    transition: 0.5s;
+}
+.button-padrao div{
+    width: 2em;
+    height: 2em;
+    background-size: 100%;
+}
+
+/*Imagens de icones*/
+.fazerParte{
+    background-image: url(../../assets/icons/lucro.png);
+    transition: 0.5s;
+}
+.button-padrao:hover .fazerParte{
+    background-image: url(../../assets/icons/lucroHover.png);
+    transition: 0.5s;
+}
+
+/*Select que divide a tela*/
+.select-dividir{
+    position: sticky;
+    top: 3.9em;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    font-size: 1rem;
+    text-align: center;
+    border: 0;
+    background-color: var(--corPrincipal);
+    color: var(--cinza);
+    transition: 0.5s;
+}
+.select-dividir:hover{
+    color: var(--branco);
+    transition: 0.5s;
+}
